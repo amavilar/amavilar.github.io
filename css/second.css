@@ -109,9 +109,10 @@ div.skills {
 
 .footer {
     background-color: #111;
+    color: white;
+    font-family:  'Raleway',sans-serif;
     margin: 0 auto;
     width: 95%;
 }
-
 
 
