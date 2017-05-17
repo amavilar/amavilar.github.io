@@ -1,0 +1,176 @@
+html { 
+  background: url(gaussian.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+.nav {
+    margin: 0 auto;
+    width: 95%;
+}
+
+/**ul.main_menu {
+    cursor: pointer;
+    padding: 0 13px 0 13px;
+    height: 30px;
+    margin: block;
+    text-align: left;
+    background-color: #f5f5f5;
+    color: white;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+.main_menu li {
+    display: inline;
+    width: 100px;
+    padding: 0 10px 0 10px;
+    font-size: 16px;
+    color: green;   
+}
+
+.main_menu li:hover {
+    background-color: #e5e5e5; 
+    width: 100px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+button{
+    background: transparent;
+    width: inherit;
+    border: none;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    cursor: pointer;
+}
+
+button:focus{
+    background-color: #e5e5e5;
+    outline: none;  
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin: : -2em;
+}
+
+.main_menu a {
+    text-decoration: none;   
+    background: transparent;
+    width: 150px;
+    border: none;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    cursor: pointer;
+    display: inline-block;     
+    text-align: center;
+    z-index: 1;     
+    padding: 2em;     
+    margin: -2em;
+}
+**/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.content {
+    position: relative;
+    background: rgba(189, 189, 189, 0.6);
+    height: 10%;
+    margin: 0 auto;
+    width: 95%; 
+    font-size: auto;
+}
+
+div.image {
+    top: 25%; 
+    margin: 0 auto; 
+    position: relative; 
+    left: 490px;
+}
+
+
+img.four_img {
+    top: 25%; 
+    margin: 0 auto; 
+    height: :150px;
+    width: 150px;
+}
+
+#shortdesc, h1, h2, h3 {
+    font-family: Century Gothic, sans-serif;
+    font-style: italic;
+   text-align: center;
+}
+
+.titlebg {
+    width: 50%;
+    background-color: #000;
+}
+
+.title {
+    color: white;
+}
+
+hr {
+    margin: 0 auto;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+p {
+    padding: 0 20px 0 20px;
+    font-family: Gill Sans MT, sans-serif;
+    font-size: 20px; 
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+div.skills {
+    top: 25%; 
+    margin: 0 auto; 
+    position: relative; 
+    left: 290px;
+}
+
+.footer {
+    background-color: #111;
+    margin: 0 auto;
+    width: 95%;
+}
+
+
+
