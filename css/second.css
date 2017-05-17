@@ -1,5 +1,5 @@
 html { 
-  background: url(gaussian.jpg) no-repeat center center fixed; 
+  background: url(/images/gaussian.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -17,65 +17,6 @@ overflow: scroll;
     margin: 0 auto;
     width: 95%;
 }
-
-/**ul.main_menu {
-    cursor: pointer;
-    padding: 0 13px 0 13px;
-    height: 30px;
-    margin: block;
-    text-align: left;
-    background-color: #f5f5f5;
-    color: white;
-    font-family: "Lucida Console", Monaco, monospace;
-}
-
-.main_menu li {
-    display: inline;
-    width: 100px;
-    padding: 0 10px 0 10px;
-    font-size: 16px;
-    color: green;   
-}
-
-.main_menu li:hover {
-    background-color: #e5e5e5; 
-    width: 100px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-}
-
-button{
-    background: transparent;
-    width: inherit;
-    border: none;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    cursor: pointer;
-}
-
-button:focus{
-    background-color: #e5e5e5;
-    outline: none;  
-    padding-top: 13px;
-    padding-bottom: 13px;
-    margin: : -2em;
-}
-
-.main_menu a {
-    text-decoration: none;   
-    background: transparent;
-    width: 150px;
-    border: none;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    cursor: pointer;
-    display: inline-block;     
-    text-align: center;
-    z-index: 1;     
-    padding: 2em;     
-    margin: -2em;
-}
-**/
 
 ul {
     list-style-type: none;
