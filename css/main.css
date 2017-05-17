@@ -7,6 +7,7 @@ html {
 }
 
 #header {
+		position: relative;
 		text-align: center;
 		padding: 6em 0 4em 0;
 }
@@ -25,10 +26,65 @@ html {
 	background-color: rgba(255, 255, 255, 0.075);
 }
 
-#header .avatar img[src="/images/greet.png"] {
+#header .avatar img[src="greet.png"] {
 	vertical-align:middle;
 	display: block;
 	display: inline-block;
 	width: 300px;
-	height: 100px;
 }
+
+.desc {
+	position: relative;
+	top: -80px;
+	text-align: center;
+	font-family: Times, serif;
+	font-style: oblique;
+	color:white;
+}
+
+hr.style-eight {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #fff;
+	border-color: white;
+    text-align: center;
+	width: 50%;
+}
+hr.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: transparent;
+	border-color: white;
+	width: 50%;
+}
+
+p{
+	font-size: 20px;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Georgia;
+  color: #000000;
+  font-size: 20px;
+  padding: 7px;
+  background: #ffffff;
+  text-decoration: none;
+}
+
+a.button:hover {
+  background: #e7f525;
+  text-decoration: none;
+}
+
